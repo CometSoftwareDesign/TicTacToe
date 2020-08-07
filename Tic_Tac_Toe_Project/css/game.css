@@ -1,12 +1,14 @@
 /*this container includes our table and our canvas*/
 .center-container{
-    width: 608px;
+    text-align: center;
+    width: 708px;
     margin: 0 auto;
     margin-top: 50px;/*this sets it 50px down from the top of the page. */
 }
 
 table{
     border-collapse: collapse;
+    text-align: center;
     border-style: hidden;
 /*this hides the outer border*/
 }
@@ -17,13 +19,14 @@ td{
     border-style: solid;
     border-color: darkgreen;
     padding: 0px;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
 
 }
 
 h1{
-    text-align:center ;
+    position: center;
+text-align: center;
     color: darkorchid;
 }
 
@@ -32,4 +35,9 @@ canvas{
     position: absolute;
     z-index: 10;
     pointer-events: none;
+}
+
+body{
+    background-image: url("./images/rome.png");
+
 }
